@@ -58,3 +58,24 @@ div {
   flex-direction: column;
   margin-right: 32px;
 }
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.image {
+  height: inherit;
+  background: url(../media/images/img-story-main.png) no-repeat;
+  background-color: lightgrey;
+
+  color: white;
+  text-align: center;
+}
+
+.column.medium {
+
+}
+.column.small {
+
+}
