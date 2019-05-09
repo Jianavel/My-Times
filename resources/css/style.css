@@ -63,14 +63,25 @@ div {
   display: flex;
   width: 630px;
 }
-
 .image {
-  height: inherit;
-  background: url(../media/images/img-story-main.png) no-repeat;
+  display: flex;
+  height: 100%;
   background-color: lightgrey;
-
   color: white;
   text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.tuna {
+  background: url(../media/images/img-story-main.png) no-repeat;
+}
+
+.camera {
+  background: url(../media/images/img-story-2.png)
+
 }
 
 .column.medium {
