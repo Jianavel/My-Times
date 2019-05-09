@@ -29,9 +29,6 @@ header {
 .logo span {
   color: mediumaquamarine;
 }
-header nav {
-  padding: 40px;
-  display: inline-block;
 
 }
 header a {
@@ -53,6 +50,7 @@ padding-top: 116px;
 div {
   border: 1px solid blue;
 }
+
 .column {
   display: flex;
   flex-direction: column;
@@ -62,10 +60,14 @@ div {
 .column.large {
   display: flex;
   width: 630px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .image {
   display: flex;
-  height: 100%;
+  justify-content: normal;
+  height: 300px;
   background-color: lightgrey;
   color: white;
   text-align: center;
@@ -73,14 +75,19 @@ div {
   font-weight: bold;
   font-size: 30px;
   color: white;
+
 }
 
 .tuna {
   background: url(../media/images/img-story-main.png) no-repeat;
 }
 
+.earth-spins {
+  background: url(../media/images/img-story-2.png) ;
+}
+
 .camera {
-  background: url(../media/images/img-story-2.png)
+  background: url(../media/images/img-story-3.png);
 
 }
 
