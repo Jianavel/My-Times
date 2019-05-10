@@ -147,3 +147,56 @@ margin: 0;
 }
 
 /* Footer*/
+
+footer {
+/*
+  align-content: space-between;
+  padding: 120px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: mediumaquamarine;
+    font-family: Verdana;
+    font-size: 12px;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+.logo-info{
+
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+
+}
+.mytimes {
+  display: inline-block;
+  align-content: center;
+  padding-right: 25px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+}
+.copywrite {
+  display: flex;
+  justify-content: center;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
