@@ -74,8 +74,6 @@ div {
 .stories {
   display: flex;
   flex-flow: row;
-  
-
 }
 
 .image {
@@ -122,8 +120,30 @@ width: 300px;
 .column.small {
 display: flex;
 width: 240px;
+flex-direction: column;
+margin: 0;
+
 }
 
 .cookie {
+  display: flex;
   background-image: url(../media/images/img-news-bite.png);
+  justify-content: center;
+  align-items: flex-end;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+
 }
+.bites {
+  display: flex;
+  margin: 0;
+  padding: 12px;
+  border-bottom: solid black 1px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
+/* Footer*/
